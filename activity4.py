@@ -1,4 +1,11 @@
 import csv
+import csv
+
+class Article:
+    def __init__(self, name, price, quantity):
+        self.name = name
+        self.price = price
+        self.quantity = quantity
 
 class ShoppingCart:
     def __init__(self):
